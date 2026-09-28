@@ -1,0 +1,5 @@
+# 工作区清理插件组合层：
+# 一行 Loader 插件 = 本包的宿主标记 + 通过 dsh.client 暴露的浏览器 UI 半边。
+- insert:
+    - id: workspace-cleaner
+      name: 'dsh-workspace-cleaner'
